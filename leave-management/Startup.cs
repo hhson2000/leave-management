@@ -37,7 +37,7 @@ namespace leave_management
             //mapping interface and repository
             services.AddScoped<ILeaveAllocationRepository, LeaveAllocationRepository>();
             services.AddScoped<ILeaveTypeRepository, LeaveTypeRepository>();
-            services.AddScoped<ILeaveHistoryRepository, LeaveHistoryRepository>();
+            services.AddScoped<ILeaveRequestRepository, LeaveRequestRepository>();
 
             //mapping viewsmodels's data and data
             services.AddAutoMapper(typeof(Maps));

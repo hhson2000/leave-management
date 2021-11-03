@@ -5,3 +5,9 @@
 $(document).ready(function () {
     $('#tblData').DataTable();
 });
+
+$(function () {
+    $(".datepicker").datepicker({
+        dateFomat: "yy-mm-dd"
+    });
+});
